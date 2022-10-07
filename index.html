@@ -17,20 +17,46 @@
     height: 100% !important;
   }
   body {
-       background: #000;
-      color: #ddd;
+    background: #000;
+    color: #ddd;
   }
   a:link { color: lightskyblue; }
   a:visited { color: #ccc; }
   a:hover { color: #ffffff; }
   a:active { color: #ff4040; text-decoration:none; font-weight:normal; }
+
+   #triangle-topleft {
+      width: 0;
+      height: 0;
+      border-top: 150px solid #9020d1bb;
+      border-left: 150px solid transparent;
+      position: absolute;
+    }
+
+    #container {
+      position: relative;
+    }
+
+    #triangle-topleft, #overlay {
+      position: absolute;
+      color: white;
+      right: 0;
+    }
+    #overlay {
+        margin-top: 32px;
+        transform: rotate(45deg);
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        a:link { color: white; };
+        a:visited { color: white; }        
+    }
 </style>
 
 <body>
     <div class="responsive-google-slides">
         <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR2pnXIRht6t5GTsONlnrrqFY5qcU29H2zwN-cUeNIkTrEcJW0-v48QZyTL2C0hd8puXIMZOYSXnaCc/embed?start=true&loop=true&delayms=2000&rm=minimal"></iframe>
+  <div id="triangle-topleft"></div>
+  <div id="overlay"><a href="https://www.youtube.com/watch?v=dg0g15Qv5Fo&t=1s">ContainerDays<br/>Recording</a></div>
     </div>
-    <center>
-        <a href="https://www.youtube.com/watch?v=dg0g15Qv5Fo&t=1s">ContainerDays 2022 Video</a>
-    </center>
 </body>
