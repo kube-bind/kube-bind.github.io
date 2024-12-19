@@ -1,0 +1,153 @@
+baseURL = 'https://kube-bind.io'
+contentDir = "content/en"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+enableMissingTranslationPlaceholders = true
+enableRobotsTXT = true
+enableGitInfo = true
+
+theme = "kcp"
+
+# Hide tags and categories
+[taxonomies]
+tag = "tags"
+category = "categories"
+[params.taxonomy]
+# set taxonomyCloud = [] to hide taxonomy clouds
+taxonomyCloud = []
+# set taxonomyPageHeader = [] to hide taxonomies on the page headers
+taxonomyPageHeader = [] 
+
+# Highlighting config
+pygmentsCodeFences = true
+pygmentsUseClasses = false
+pygmentsUseClassic = false
+#pygmentsOptions = "linenos=table"
+pygmentsStyle = "tango" # See https://help.farbox.com/pygments.html
+
+# Configure how URLs look like per section.
+#[permalinks]
+#blog = "/:section/:year/:month/:day/:slug/"
+
+# Image processing configuration.
+[imaging]
+resampleFilter = "CatmullRom"
+quality = 75
+anchor = "smart"
+
+[services]
+[services.googleAnalytics]
+# Comment out the next line to disable GA tracking. Also disables the feature described in [params.ui.feedback].
+id = "UA-00000000-0"
+
+[languages]
+[languages.en]
+title = 'kube-bind.io'
+languageName = "English"
+weight = 1
+[languages.en.params]
+description = "Building better support for Kubernetes service provider models"
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+[markup.highlight]
+# See a complete list of available styles at https://xyproto.github.io/splash/docs/all.html
+style = "monokai"
+guessSyntax = "true"
+
+[params]
+copyright = "2021-2024. The kube-bind Authors"
+footer_note = "Kubernetes and the Kubernetes logo are registered trademarks of The Linux Foundation® (TLF)."
+footer_cncf_show = false
+footer_cncf_note = "We are a Cloud Native Computing Foundation sandbox project."
+
+archived_version = false
+url_latest_version = "https://kube-bind.io/"
+github_repo = "https://github.com/kube-bind/kube-bind.io"
+github_project_repo = "https://github.com/kube-bind/kube-bind"
+github_subdir = "docs"
+github_branch= "main"
+
+gcs_engine_id = "d72aa9b2712488cc3"
+algolia_docsearch = false
+offlineSearch = false
+
+prism_syntax_highlighting = false
+
+[menu]
+
+[[menu.main]]
+name = "Documentation"
+weight = -1000
+url = "https://docs.kube-bind.io/kube-bind/latest"
+[[menu.main]]
+name = "GitHub"
+weight = -99
+url = "https://github.com/kube-bind/kube-bind"
+[[menu.main]]
+name = "Contribute"
+weight = -99
+url = "https://github.com/kube-bind/kube-bind/blob/main/CONTRIBUTING.md"
+
+[params.links]
+
+[[params.links.social]]
+name = "GitHub"
+brand = "github"
+url = "https://github.com/kube-bind/kube-bind"
+
+[params.links.footer]
+
+[params.links.footer.community]
+name = "Community"
+[[params.links.footer.community.links]]
+name = "Kubernetes Slack"
+url = "https://kubernetes.slack.com/archives/C021U8WSAFK"
+[[params.links.footer.community.links]]
+name = "User Mailing List"
+url = "https://groups.google.com/g/kube-bind-dev    "
+
+[params.links.footer.developer]
+name = "Developer Resources"
+[[params.links.footer.developer.links]]
+name = "How to Contribute"
+url = "https://github.com/kube-bind/kube-bind/blob/main/CONTRIBUTING.md"
+[[params.links.footer.developer.links]]
+name = "Website Source"
+url = "https://github.com/kube-bind/kube-bind.io"
+[[params.links.footer.developer.links]]
+name = "Developer Mailing List"
+url = "https://groups.google.com/g/kube-bind-dev"
+
+[params.links.footer.helpful]
+name = "Helpful Links"
+[[params.links.footer.helpful.links]]
+name = "Documentation"
+url = "https://docs.kube-bind.io"
+[[params.links.footer.helpful.links]]
+name = "Report a Vulnerability"
+url = "https://github.com/kube-bind/kube-bind/blob/main/SECURITY.md"
+
+[params.links.footer.policies]
+name = "Policies"
+[[params.links.footer.policies.links]]
+name = "Code of Conduct"
+url = "https://github.com/kube-bind/kube-bind/blob/main/code-of-conduct.md"
+[[params.links.footer.policies.links]]
+name = "Governance"
+url = "https://github.com/kube-bind/kube-bind/blob/main/GOVERNANCE.md"
+
+# hugo module configuration
+
+[module]
+# uncomment line below for temporary local development of module
+# replacements = "github.com/google/docsy -> ../../docsy"
+[module.hugoVersion]
+extended = true
+min = "0.75.0"
+[[module.imports]]
+ignoreImports = false
+path = "kcp"
+
