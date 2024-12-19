@@ -1,0 +1,38 @@
+hero:
+  header: "Provide and Consume Kubernetes-native Services"
+  tagline: "An OpenSource project that aims to provide better support for service providers and consumers that reside in distinct Kubernetes clusters."
+  buttons:
+    get_started: https://docs.kube-bind.io/kube-bind/latest/setup/quickstart/
+    learn_more: https://docs.kube-bind.io/kube-bind/latest/concepts/
+
+cards:
+  - title: "Let's design a post-operator / post-cluster technology"
+    text: "that allows a service provider persona as 1st class citizen that can securely provide centrally operated kube-native services"
+  - title: "Kuberenetes at Core"
+    text: "While Kubernetes has amazing ecosystem, it lacks a native way to provide APIs as services. Kube-bind fills this gap."
+  - title: "Dedicated to Community"
+    text: "kube-bind is an OpenSource project. We value respectful collaboration with contributors and upstream projects above all."
+
+video:
+  embed_url: "https://www.youtube.com/embed/Uv0ivz5xej4?si=p8IFOGMpShPzjZ3f"
+  description: "Towards Something Better Than CRDs In a Post-Operator World @ KubeCon + CloudNativeCon EU 2023"
+
+goals:
+  - title: "Service provider and consumer separation."
+    text: |-
+      A service provider defines its API in terms of CRDs and associated permission claims/limitations, and exports it for use from other clusters.
+  - title: "Create a standard for sharing Kubernetes native APIs."
+    text: |-
+      A way multiple vendors can provide services to consumers in a way that is consistent and secure.
+  - title: "Building Block, Not Walled Garden."
+    text: |-
+      To be vendor agnostic, and to allow for a rich ecosystem of services to be provided to consumers.
+  
+community:
+  title: "We ❤️ Collaboration"
+  text: |-
+    We develop kube-bind completely in the open. Everybody is welcome to help making the vision of kube-bind reality.
+    
+    Meet us in person in the [#kube-bind](https://kubernetes.slack.com/archives/C046PRXNJ4W) channel in Kubernetes Slack. Find our code on [GitHub](https://github.com/kube-bind/kube-bind).
+
+    [![Grid of contributors on GitHub](https://contrib.rocks/image?repo=kube-bind/kube-bind&amp;columns=15&amp;max=100 "Contributor Grid")](https://github.com/kube-bind/kube-bind/graphs/contributors)
