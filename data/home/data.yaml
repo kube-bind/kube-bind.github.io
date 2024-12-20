@@ -2,8 +2,8 @@ hero:
   header: "Provide and Consume Kubernetes-native Services"
   tagline: "An OpenSource project that aims to provide better support for service providers and consumers that reside in distinct Kubernetes clusters."
   buttons:
-    get_started: https://docs.kube-bind.io/kube-bind/latest/setup/quickstart/
-    learn_more: https://docs.kube-bind.io/kube-bind/latest/concepts/
+    get_started: https://kube-bind.io/kube-bind/main/setup/quickstart/
+    learn_more: https://kube-bind.io/kube-bind/main/reference/
 
 cards:
   - title: "Let's design a post-operator / post-cluster technology"
