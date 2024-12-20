@@ -65,7 +65,7 @@ footer_cncf_note = "We are a Cloud Native Computing Foundation sandbox project."
 
 archived_version = false
 url_latest_version = "https://kube-bind.io/"
-github_repo = "https://github.com/kube-bind/kube-bind.io"
+github_repo = "https://github.com/kube-bind/kube-bind.github.io"
 github_project_repo = "https://github.com/kube-bind/kube-bind"
 github_subdir = "docs"
 github_branch= "main"
@@ -107,7 +107,7 @@ name = "Kubernetes Slack"
 url = "https://kubernetes.slack.com/archives/C021U8WSAFK"
 [[params.links.footer.community.links]]
 name = "User Mailing List"
-url = "https://groups.google.com/g/kube-bind-dev    "
+url = "https://groups.google.com/g/kube-bind-dev"
 
 [params.links.footer.developer]
 name = "Developer Resources"
@@ -116,7 +116,7 @@ name = "How to Contribute"
 url = "https://github.com/kube-bind/kube-bind/blob/main/CONTRIBUTING.md"
 [[params.links.footer.developer.links]]
 name = "Website Source"
-url = "https://github.com/kube-bind/kube-bind.io"
+url = "https://github.com/kube-bind/kube-bind.github.io"
 [[params.links.footer.developer.links]]
 name = "Developer Mailing List"
 url = "https://groups.google.com/g/kube-bind-dev"
