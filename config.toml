@@ -81,7 +81,7 @@ prism_syntax_highlighting = false
 [[menu.main]]
 name = "Documentation"
 weight = -1000
-url = "https://docs.kube-bind.io/kube-bind/latest"
+url = "https://kube-bind.io/kube-bind/main"
 [[menu.main]]
 name = "GitHub"
 weight = -99
@@ -125,7 +125,7 @@ url = "https://groups.google.com/g/kube-bind-dev"
 name = "Helpful Links"
 [[params.links.footer.helpful.links]]
 name = "Documentation"
-url = "https://docs.kube-bind.io"
+url = "https://kube-bind.io/kube-bind/main"
 [[params.links.footer.helpful.links]]
 name = "Report a Vulnerability"
 url = "https://github.com/kube-bind/kube-bind/blob/main/SECURITY.md"
