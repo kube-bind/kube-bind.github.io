@@ -2,13 +2,13 @@ hero:
   header: "Provide and Consume Kubernetes-native Services"
   tagline: "An OpenSource project that aims to provide better support for service providers and consumers that reside in distinct Kubernetes clusters."
   buttons:
-    get_started: https://docs.kube-bind.io/main/setup/quickstart/
-    learn_more: https://docs.kube-bind.io/main/reference/
+    get_started: https://docs.kube-bind.io/latest/setup/quickstart/
+    usage: https://docs.kube-bind.io/latest/usage/
 
 cards:
   - title: "Let's design a post-operator / post-cluster technology"
     text: "that allows a service provider persona as 1st class citizen that can securely provide centrally operated kube-native services"
-  - title: "Kuberenetes at Core"
+  - title: "Kubernetes at Core"
     text: "While Kubernetes has amazing ecosystem, it lacks a native way to provide APIs as services. Kube-bind fills this gap."
   - title: "Dedicated to Community"
     text: "kube-bind is an OpenSource project. We value respectful collaboration with contributors and upstream projects above all."
