@@ -89,7 +89,7 @@ url = "https://github.com/kube-bind/kube-bind"
 [[menu.main]]
 name = "Contribute"
 weight = -99
-url = "https://github.com/kube-bind/kube-bind/blob/latest/CONTRIBUTING.md"
+url = "https://github.com/kube-bind/kube-bind/blob/main/CONTRIBUTING.md"
 
 [params.links]
 
