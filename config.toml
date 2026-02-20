@@ -83,6 +83,10 @@ name = "Documentation"
 weight = -1000
 url = "https://kube-bind.io/kube-bind/latest"
 [[menu.main]]
+name = "Blog"
+weight = -500
+url = "https://docs.kube-bind.io/main/blog/"
+[[menu.main]]
 name = "GitHub"
 weight = -99
 url = "https://github.com/kube-bind/kube-bind"
